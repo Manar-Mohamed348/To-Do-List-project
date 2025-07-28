@@ -4,7 +4,7 @@
 
 ## 📸 Live Preview
 [![App Screenshot](https://iili.io/F8odLbe.png)]([https://your-live-demo-url.com](https://manar-mohamed348.github.io/To-Do-List-project/))  
-*Click screenshot to try live demo*
+
 
 ## ✨ Key Features
 **Task Interaction**  
