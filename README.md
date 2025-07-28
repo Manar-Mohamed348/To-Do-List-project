@@ -1,6 +1,31 @@
 # To-Do List 
 
-![Demo Preview](https://freeimage.host/i/F8odLbe) 
+# 🌊 Ocean To-Do List
+
+## 📸 Live Preview
+[![App Screenshot](https://iili.io/F8odLbe.png)]([https://your-live-demo-url.com](https://manar-mohamed348.github.io/To-Do-List-project/))  
+*Click screenshot to try live demo*
+
+## ✨ Key Features
+**Task Interaction**  
+✓ One-click completion (toggles gray/strikethrough)  
+✓ Instant task deletion  
+✓ Bulk clear functionality  
+
+**Visual Experience**  
+🌗 Dark/light mode toggle  
+🌊 Soothing ocean color palette  
+🔄 Smooth CSS transitions  
+
+**Built-in Utilities**  
+📅 Real-time day/date display  
+📱 Fully responsive design  
+
+## 🚀 Quick Start
+```bash
+git clone https://github.com/your-username/repo.git
+cd repo
+open index.html
 
 A minimalist, ocean-themed productivity app that helps you track tasks with satisfying visual feedback.  
 
