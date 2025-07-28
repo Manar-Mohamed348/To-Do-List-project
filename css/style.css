@@ -1,0 +1,252 @@
+/* Global Reset and Base Styles */
+/* Remove default list styles, margins, and paddings for all elements */
+* {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Include padding and border in element's total width/height */
+    font-family: "Inter", sans-serif; /* Set default font family */
+    font-optical-sizing: auto; /* Enable optical sizing for better readability */
+    font-style: normal;
+}
+
+/* Body Styles */
+body {
+    background-image: url("../image/sea.png"); /* Set background image */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+    background-size: cover; /* Cover entire viewport with background */
+}
+
+/* Main To-Do Container */
+.toDoContainer {
+    width: 545px; /* Fixed width for the container */
+    margin: 50px auto; /* Center the container horizontally */
+    background-color: rgb(255, 255, 255, 0.53); /* Semi-transparent white background */
+    border: 1px solid #ccc; /* Light gray border */
+    padding: 12px; /* Inner spacing */
+    position: relative; /* Establish positioning context for absolute children */
+}
+
+/* Header Section Styles */
+.head {
+    width: 400px; /* Fixed width for header */
+    display: flex;
+    margin: 36px auto; /* Center header horizontally with top/bottom margin */
+    justify-content: center;
+    align-items: center;
+}
+
+.head span {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px; /* Space between elements */
+}
+
+/* Back Button Styles */
+.head span button {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    left: 12px; /* Position from left */
+    position: absolute; /* Absolute positioning within container */
+    width: 40px;
+    height: 40px;
+    border-style: none;
+    border-radius: 8px;
+    background-color: white;
+}
+
+/* Back Button Icon Styles */
+.head span button i {
+    color: #10a0e7; /* Blue icon color */
+    transform: translate(40%, 15%); /* Position icon within button */
+    font-size: 30px;
+}
+
+/* Day Name Text Styles */
+.head #dayName {
+    display: block;
+    font-size: 55px; /* Large font size for day */
+    color: #5A8FDD; /* Blue text color */
+}
+
+/* Date Text Styles */
+.head #date {
+    font-size: 21px; /* Medium font size for date */
+    color: #5A8FDD; /* Blue text color */
+}
+
+/* Input Section Styles */
+.input {
+    width: 545px; /* Match container width */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto; /* Center horizontally */
+    gap: 8px; /* Space between input and buttons */
+    margin-bottom: 38px; /* Bottom margin */
+}
+
+/* Task Input Field Styles */
+.input #taskInput {
+    width: 313px;
+    height: 45px;
+    padding: 10px 20px; /* Inner spacing */
+    border-style: none;
+    background-color: #75a6c2; /* Light blue background */
+    color: white; /* White text */
+}
+
+/* Placeholder Text Styles */
+.input #taskInput::placeholder {
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: 300; /* Light font weight */
+}
+
+/* Button Styles */
+.input button {
+    width: 94px;
+    height: 45px;
+    border-style: none;
+    color: #ffffff;
+    font-size: 19px;
+    font-weight: 300;
+    text-wrap: nowrap; /* Prevent text wrapping */
+    padding: 10px;
+}
+
+/* First Button (Add Task) */
+.input button:first-of-type {
+    background-color: #5A8FDD; /* Blue background */
+    padding-left: 7px; /* Adjust text position */
+}
+
+/* Second Button (Clear All) */
+.input button:last-of-type {
+    background-color: #8AE1A7; /* Green background */
+}
+
+/* Task List Styles */
+ul:empty {
+    display: none; /* Hide empty lists */
+}
+
+ul {
+    width: 517px; /* Slightly less than container for padding */
+}
+
+/* Individual Task Item Styles */
+ul li {
+    background-color: rgb(90, 143, 221, 0.11); /* Semi-transparent blue */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 45px;
+    margin-bottom: 20px; /* Space between tasks */
+    padding-left: 20px; /* Indent text */
+    color: #0066ff; /* Blue text */
+}
+
+/* Delete Button Styles */
+.delBtn {
+    position: absolute;
+    border: none;
+    color: #CD5959; /* Red color for delete */
+    width: 30px;
+    height: 30px;
+    margin-left: 455px; /* Position from left */
+}
+
+/* Link Styles */
+a {
+    position: absolute;
+    left: 12px;
+    bottom: -30px; /* Position below container */
+    text-decoration: none;
+    color: #0066ff; /* Blue link */
+}
+
+/* Link Hover State */
+a:hover {
+    color: #4f7bbd; /* Darker blue on hover */
+}
+
+/* Visited Link State */
+a:visited {
+    color: #397855; /* Different color for visited links */
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), url("../image/sea.png")); /* Dark overlay */
+    color: #e0e0e0; /* Light text color */
+}
+
+/* Dark Mode Container */
+.dark-mode .toDoContainer {
+    background-color: rgba(30, 30, 30, 0.85); /* Dark semi-transparent background */
+    border-color: #444; /* Darker border */
+}
+
+/* Dark Mode Header Text */
+.dark-mode .head #dayName,
+.dark-mode .head #date {
+    color: #7ab1f0; /* Lighter blue text */
+}
+
+/* Dark Mode Back Button */
+.dark-mode .head span button {
+    background-color: #2d2d2d; /* Dark button background */
+}
+
+/* Dark Mode Back Button Icon */
+.dark-mode .head span button i {
+    color: #A0C7DA; /* Light blue icon */
+    transform: translate(15%, 17%); /* Adjusted position */
+}
+
+/* Dark Mode Input Field */
+.dark-mode #taskInput {
+    background-color: #3a4d5c; /* Dark blue-gray background */
+    color: #ffffff; /* White text */
+}
+
+/* Dark Mode Placeholder Text */
+.dark-mode #taskInput::placeholder {
+    color: #ffffff; /* White placeholder */
+}
+
+/* Dark Mode Buttons */
+.dark-mode .input button:first-of-type {
+    background-color: #3a6ea5; /* Darker blue */
+}
+
+.dark-mode .input button:last-of-type {
+    background-color: #4a9d6e; /* Darker green */
+}
+
+/* Dark Mode Task Items */
+.dark-mode ul li {
+    background-color: rgb(58, 77, 92, 0.50); /* Semi-transparent dark background */
+    color: #a8d0ff; /* Light blue text */
+}
+
+/* Dark Mode Delete Button */
+.dark-mode .delBtn {
+    color: #ff7a7a; /* Light red */
+    background-color: #5a6c7a; /* Dark background */
+}
+
+/* Transition Effects */
+body, .toDoContainer, .head span button, #taskInput, ul li, button {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; /* Smooth transitions for theme changes */
+}
+/* Task completion styling */
+.task-item.completed {
+    color: #999; /* Gray color */
+    text-decoration: line-through; /* Strikethrough */
+    background-color: #f5f5f5; /* Light gray background */
+    transition: all 0.3s ease; /* Smooth transition */
+}
