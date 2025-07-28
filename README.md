@@ -1,6 +1,6 @@
 # To-Do List 
 
-![Demo Preview](https://i.imgur.com/your-demo-image.png) *← Add screenshot link here*
+![Demo Preview](https://freeimage.host/i/F8odLbe) 
 
 A minimalist, ocean-themed productivity app that helps you track tasks with satisfying visual feedback.  
 
