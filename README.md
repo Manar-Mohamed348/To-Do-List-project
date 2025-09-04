@@ -2,7 +2,7 @@
 A simple and responsive To-Do List web app featuring a dynamic date display and dark mode toggle for an enhanced user experience.
 ## 📸 Preview  
 
-![](https://postimg.cc/SXZmn7KD)
+[![Screenshot-2025-07-29-002913.png](https://i.postimg.cc/vByTS0wF/Screenshot-2025-07-29-002913.png)](https://postimg.cc/SXZmn7KD)
 
 🌐 Live Demo
 [View Live Portfolio](https://manar-mohamed348.github.io/To-Do-List-project/)
