@@ -7,6 +7,7 @@ A simple and responsive To-Do List web app featuring a dynamic date display and 
 🌐 Live Demo
 [View Live Portfolio](https://manar-mohamed348.github.io/To-Do-List-project/)
 
+
 🚀 Features
 Dynamic Date Display: Current date shown at the top of the app
 
@@ -18,12 +19,14 @@ Responsive Design: Works seamlessly on desktop, tablet, and mobile
 
 Minimal UI: Clean and distraction-free design for productivity
 
+
 📋 Sections
 Header: Displays today’s date and the dark mode toggle button
 
 Task Input: Field to add new tasks
 
 Task List: Interactive list where you can check off or delete tasks
+
 
 🛠️ Built With
 HTML5: Semantic structure for accessibility
